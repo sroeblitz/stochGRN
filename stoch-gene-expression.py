@@ -7,9 +7,9 @@ from scipy.integrate import solve_ivp
 #from array import array
 import matplotlib.pyplot as plt
 from matplotlib import rcParams
-import random
+#import random
 
-random.seed(10)
+np.random.seed(10)
 
 rcParams["axes.titlesize"] = 18
 rcParams["axes.labelsize"] = 18
